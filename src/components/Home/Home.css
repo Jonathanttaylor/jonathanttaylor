@@ -1,8 +1,12 @@
 .name{
-    padding-top: 15%;
+    padding-top: 24%;
+    padding-bottom: 24%;
     color: white;
     text-align: center;
-    background: #333a40;
+    background-image: url('./background/bg(lg).JPG');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
     font-size: 90px;
 }
 
@@ -11,45 +15,29 @@
     text-align: center;
 }
 
-.button{
-    border: none;
-    background-color: #27a2b8;
-    color: white;
-    border-radius: 50px;;
-    margin: 0 auto;
-    display: block;
-    padding: 5px 32px;
-    margin-top: 5%;
-    width: 20%;
-    font-size: 3vw;
-    transition-duration: 0.4s;
-    margin-bottom: 20%;
+@media screen and (max-width: 1410px) {
+    .name{
+        background-image: url('./background/bg(md).JPG');
+    }
 }
 
-.button:hover{
-    background-color: #338796;
+@media screen and (max-width: 992px) {
+    .name{
+        background-image: url('./background/bg(sm).JPG');
+    }
 }
-@media screen and (max-width: 750px) {
+
+
+@media screen and (max-width: 708px) {
     .name{
         padding-top: 20%;
         font-size: 70px;
-    }
-
-    .intro{
-        font-size: 20px;
-    }
-
-    .button{
-        margin-top: 10%;
-        width: 30%;
-        font-size: 5vw;
+        background-image: url('./background/bg(xs).JPG');
     }
 }
 
-@media screen and (max-width: 500px) {
-    .button{
-        margin-top: 10%;
-        width: 30%;
-        font-size: 4vw;
+@media screen and (max-width: 420px) {
+    .name{
+        background-image: url('./background/bg(xxs).JPG');
     }
 }
