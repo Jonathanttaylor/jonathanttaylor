@@ -46,7 +46,7 @@ const Projects = () => {
                         code='https://github.com/Jonathanttaylor/PaceCalc'
                     />,
                     <CardProj 
-                    project='Personnel Website'
+                    project='Personal Website'
                     technology={[
                         <br></br>,
                         <TechBadge tech='React'/>,
