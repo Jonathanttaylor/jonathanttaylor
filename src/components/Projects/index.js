@@ -24,7 +24,7 @@ const Projects = () => {
                         image={DMV}
                         group='Term 5 design project, Team of 2'
                         desc='3D simulation game with the objective of going to the DMV to renew your license'
-                        ytID='rokGy0huYEA'
+                        ytID='4d7K3kEljIE'
                         code='https://github.com/Jonathanttaylor/DMV-Simulator'
                         dload={[
                             <a href={DMVMac}>MacOS Download</a>,
@@ -42,7 +42,7 @@ const Projects = () => {
                         image={PCalc}
                         group='Individual Project'
                         desc='IOS application to calculate running pace, time or distance in km or mi'
-                        ytID='rokGy0huYEA'
+                        ytID='v4ImKHjgsyc'
                         code='https://github.com/Jonathanttaylor/PaceCalc'
                     />,
                     <CardProj 
