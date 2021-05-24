@@ -55,7 +55,7 @@ const Projects = () => {
                     ]}
                     image={Site}
                     group='Individual Project'
-                    desc='Personnel Website (this website), used for expanding on my Resume.'
+                    desc='Personal website (this website), used for expanding on my resume.'
                     code='https://github.com/Jonathanttaylor/PaceCalc'
                 />
                 ]}
