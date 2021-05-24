@@ -46,7 +46,7 @@ const Navigation = () => {
 
             <Modal centered show={contact} onHide={contactClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Send an email with the form below</Modal.Title>
+                    <Modal.Title style={{textAlign: 'center'}}>Send an email with the form below or directly to <a href='mailto: jttaylor@mun.ca'>jttaylor@mun.ca</a></Modal.Title>
                 </Modal.Header>
                 <Modal.Body><Contact /></Modal.Body>
             </Modal>

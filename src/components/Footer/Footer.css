@@ -9,3 +9,22 @@
     text-align: center;
     margin-bottom: 15px;
 }
+
+.git{
+    background-image: url('./icons/git.png');
+    height:60px;
+    width:60px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.in{
+    background-image: url('./icons/in.png');
+    height:60px;
+    width:60px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
