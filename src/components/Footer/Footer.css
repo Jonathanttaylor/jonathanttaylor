@@ -12,8 +12,8 @@
 
 .git{
     background-image: url('./icons/git.png');
-    height:60px;
-    width:60px;
+    height:45px;
+    width:45px;
     display: inline-block;
     vertical-align: top;
     margin-top: 10px;
@@ -22,8 +22,8 @@
 
 .in{
     background-image: url('./icons/in.png');
-    height:60px;
-    width:60px;
+    height:45px;
+    width:45px;
     display: inline-block;
     vertical-align: top;
     margin-top: 10px;

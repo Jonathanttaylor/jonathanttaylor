@@ -12,14 +12,13 @@ const Footer = () => {
 
     return (
         <div className='footer'>
-            <h1 className='text'>Looking to Get in Touch?</h1>
+            <h2 className='text'>Feel free to reach out at any time</h2>
             <div style={{textAlign: 'center'}}>
-                <Button center variant='info' size='lg' style={{fontSize: '30px', width: '175px'}} onClick={contactShow}>Email</Button>
+                <Button center variant='info' size='lg' style={{fontSize: '25px', width: '150px'}} onClick={contactShow}>Email</Button>
             </div>
             <div style={{textAlign: 'center'}}>
                 <Button variant='dark' className='git' onClick={() => {window.location.href='https://github.com/Jonathanttaylor'}}></Button>
                 <Button variant='dark' className='in' onClick={() => {window.location.href='https://www.linkedin.com/in/jonathanttaylor'}}></Button>
-
             </div>
 
             <Modal centered show={contact} onHide={contactClose}>
