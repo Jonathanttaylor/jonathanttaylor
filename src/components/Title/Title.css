@@ -1,0 +1,17 @@
+.title{
+    margin-top: 5%;
+    text-align: center;
+    color: #333a40;
+    margin-bottom: 20px;
+}
+
+.title:after{
+    content:' ';
+    position: absolute;
+    display:block;
+    width: 30px;
+    border:2px solid #27a2b8;
+    border-radius:4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
